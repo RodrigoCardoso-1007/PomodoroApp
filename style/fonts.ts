@@ -19,4 +19,5 @@ export const fonts = {
     light: fontFamily.Roboto.Light,
     regular: fontFamily.Roboto.Regular,
     bold: fontFamily.Roboto.Bold,
+    italic: fontFamily.Roboto.Italic
 }
