@@ -1,2 +1,2 @@
-export { lightTheme } from './color';
+export { theme } from './color';
 export { fonts } from './fonts';
