@@ -1,15 +1,19 @@
 import { StyleSheet } from 'react-native';
-import { fonts, lightTheme } from '../../../style';
+import { fonts, theme } from '../../../style';
 
 export const gradient = [
-    lightTheme.secondary.default, 
-    lightTheme.primary.default, 
-    lightTheme.tertiary.default
+    theme.secondary.default, 
+    theme.primary.default, 
+    theme.tertiary.default
 ];
 
 export const style = StyleSheet.create({
-    container: {
+    contentLinear: {
         flex: 1,
+    },
+    content: {
+        flex: 1,
+        paddingHorizontal: 16,
     },
     containerTitle: {
         flex: 0.3,
@@ -18,11 +22,16 @@ export const style = StyleSheet.create({
     },
     textTitle: {
         fontSize: 60,
-        color: lightTheme.base.default,
+        color: theme.base.white,
         fontFamily: fonts.regular
     },
     containerBody: {
         flex: 0.5,
+        justifyContent: 'center'
+    },
+    containerInput: {
+        height: 50,
+        marginVertical: 16
     },
     containerFooter: {
         flex: 0.2
