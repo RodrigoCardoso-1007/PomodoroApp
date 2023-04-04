@@ -52,12 +52,13 @@ const colors = {
       },
       base: {
         10: '#FFFFFF',
+        30: '#aaaaaa',
         90: '#000000'
       }
     
 }
 
-export const lightTheme = {
+const lightTheme = {
     primary: {
         light: colors.primary[10],
         default: colors.primary[50],
@@ -99,7 +100,10 @@ export const lightTheme = {
         light: colors.success[90],
     },
     base: {
-        default: colors.base[10],
-        contrast: colors.base[90],
+        white: colors.base[10],
+        gray: colors.base[30],
+        black: colors.base[90],
     }
 }
+
+export const theme = lightTheme;
