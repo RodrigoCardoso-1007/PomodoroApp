@@ -31,7 +31,7 @@ export const style = StyleSheet.create({
     },
     containerInput: {
         height: 50,
-        marginVertical: 16
+        marginVertical: 28
     },
     containerFooter: {
         flex: 0.2

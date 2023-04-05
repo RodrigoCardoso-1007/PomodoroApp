@@ -52,7 +52,7 @@ const colors = {
       },
       base: {
         10: '#FFFFFF',
-        30: '#aaaaaa',
+        30: '#DDDDDD',
         90: '#000000'
       }
     

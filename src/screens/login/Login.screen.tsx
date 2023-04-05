@@ -26,15 +26,17 @@ export default function LoginScreen(props: LoginScreenProps) {
                     <View style={style.containerBody}>
                         <InputTextField
                             value={emailValue}
-							placeholder={'Email'}
-                            contentStyle={style.containerInput}
+                            label={'Email'}
+                            placeholder={'Digite o email'}
+                            containerStyle={style.containerInput}
                             onChange={onChangeEmail}
                         />
 
                         <InputTextField
                             value={passwordValue}
-							placeholder={'Senha'}
-							contentStyle={style.containerInput}
+                            label={'Senha'}
+							placeholder={'Digite a senha'}
+							containerStyle={style.containerInput}
 							secureTextEntry
                             onChange={onChangePassword}
                         />
